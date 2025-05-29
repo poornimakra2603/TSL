@@ -1,2 +1,9 @@
+[project]
+name = "tsl-app"
+version = "0.1.0"
+description = "Tamil Sign Language Recognition"
+requires-python = ">=3.8"
+dependencies = []
+
 [build-system]
 requires = ["setuptools", "wheel"]
