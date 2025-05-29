@@ -145,17 +145,14 @@ def main():
         else:
             st.info("🚀 Train the model and upload an image to get started")
     
-    # Footer
+   # Footer
     st.markdown("---")
     st.markdown(
         """
         <div style='text-align: center'>
             <p>Tamil Sign Language Recognition System</p>
-            <p>Built with Streamlit and TensorFlow</p>
+            <p>Built with Streamlit and Scikit-learn</p>
         </div>
         """, 
         unsafe_allow_html=True
     )
-
-if __name__ == "__main__":
-    main()
