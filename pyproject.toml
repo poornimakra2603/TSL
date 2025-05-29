@@ -1,9 +1,18 @@
 [project]
-name = "tsl-app"
+name = "tsl_app"
 version = "0.1.0"
 description = "Tamil Sign Language Recognition"
 requires-python = ">=3.8"
-dependencies = []
+dependencies = [
+    "streamlit",
+    "numpy",
+    "pillow",
+    "scikit-learn",
+    "opencv-python-headless",
+    "matplotlib",
+    "seaborn"
+]
 
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
